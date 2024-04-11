@@ -1,0 +1,9 @@
+env
+__pycache__
+clothings_od_7_cls.pt
+saved_videos
+temp
+temp_output
+app_settings
+user_logs_directory
+cctvapp.db

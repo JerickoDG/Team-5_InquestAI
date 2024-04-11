@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QMainWindow" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1453</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget {
+	border-image: url(:/newPrefix/bgcolor.png);
+
+}</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>900</width>
+        <height>750</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/newPrefix/10077-removebg.png);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QWidget" name="loginform" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(4, 76, 130);
+border-radius: 25px;</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>55</number>
+       </property>
+       <property name="topMargin">
+        <number>60</number>
+       </property>
+       <property name="rightMargin">
+        <number>55</number>
+       </property>
+       <property name="bottomMargin">
+        <number>150</number>
+       </property>
+       <item row="11" column="0" alignment="Qt::AlignRight">
+        <widget class="QLabel" name="forgotpasstxt">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;Tahoma&quot;;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Forgot Password?</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="usernamelogin">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(122, 171, 200);
+font: 11pt &quot;Tahoma&quot;;
+border-radius: 10px;
+padding: 15px;</string>
+         </property>
+         <property name="text">
+          <string>a</string>
+         </property>
+         <property name="maxLength">
+          <number>30</number>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Username</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="loginicon">
+         <property name="minimumSize">
+          <size>
+           <width>141</width>
+           <height>141</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/newPrefix/key.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../../.designer/image/key.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QPushButton" name="loginbutton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>357</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#loginbutton{
+background-color: rgb(122, 171, 200);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#loginbutton:Hover{
+background-color: rgb(16, 170, 215);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#loginbutton:Pressed {
+background-color: rgb(16, 170, 163);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="12" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="leftMargin">
+          <number>50</number>
+         </property>
+         <property name="topMargin">
+          <number>20</number>
+         </property>
+         <item alignment="Qt::AlignRight">
+          <widget class="QLabel" name="accntmsgtxt">
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Tahoma&quot;;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Don't have an account?</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="registertxt">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;Tahoma&quot;;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Register here.</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="5" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="passwordlogin">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(122, 171, 200);
+font: 11pt &quot;Tahoma&quot;;
+padding: 15px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>30</number>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Password</string>
+           </property>
+           <property name="clearButtonEnabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="revealpass">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>41</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#revealpass{
+image: url(:/newPrefix/invisible.png);
+width: 70px;  
+height: auto;  
+background-color: rgb(122, 171, 200);
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="loginmsgtxt">
+         <property name="styleSheet">
+          <string notr="true">font: 700 18pt &quot;Tahoma&quot;;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Login to access your account</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>5</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="6" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>usernamelogin</tabstop>
+  <tabstop>passwordlogin</tabstop>
+  <tabstop>loginbutton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../image/asd.qrc"/>
+ </resources>
+ <connections/>
+</ui>

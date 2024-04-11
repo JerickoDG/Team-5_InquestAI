@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reset</class>
+ <widget class="QMainWindow" name="Reset">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Reset</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="whitebg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>601</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="findaccttxt">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 23pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Find your account</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instrtxt_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Please enter your email to search for your account.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="forgotpassem">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>170</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Tahoma&quot;;
+background-color: rgb(227, 227, 227);
+border: 0.5px solid black;
+border-radius: 10px;
+padding: 15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>30</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchforgot">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>260</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#searchforgot {
+background-color: rgb(85, 183, 221);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#searchforgot:Hover {
+background-color: rgb(16, 170, 215);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#searchforgot:Pressed {
+background-color: rgb(16, 170, 163);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelforgot">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>260</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#cancelforgot {
+background-color: rgb(85, 183, 221);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#cancelforgot:Hover {
+background-color: rgb(16, 170, 215);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}
+
+#cancelforgot:Pressed {
+background-color: rgb(16, 170, 163);
+font: 700 14pt &quot;Tahoma&quot;;
+border-radius: 10px;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
