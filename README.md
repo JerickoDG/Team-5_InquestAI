@@ -5,7 +5,7 @@ weapons using object detection. Furthermore, the
 system aims to assist in finding the relevant clips from 
 the footage.
 
-## Team Members
+## Design Project Team Members
 Technological Institute of the Philippines - Quezon City (Computer Engineering Department)
 * Acena, Erika
 * De Guzman, Jericko
