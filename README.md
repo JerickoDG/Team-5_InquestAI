@@ -11,7 +11,9 @@ Technological Institute of the Philippines - Quezon City (Computer Engineering D
 * De Guzman, Jericko
 * Jimenez, Ryan Joshua
 
-## Interface
+## Interface / Video Demo
+
+https://github.com/JerickoDG/Team-5_InquestAI/assets/60811658/9dfef137-e36f-42c9-ab25-d115abf96737
 
 ![image](https://github.com/JerickoDG/Team-5_InquestAI/assets/60811658/5c516137-0960-4aa3-ae5c-7be96527eb13)
 ![image](https://github.com/JerickoDG/Team-5_InquestAI/assets/60811658/312abac0-96eb-462a-a9e8-3761293b2484)
